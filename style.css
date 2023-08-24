@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Mukta&display=swap');
+body{
+    background-color: #5aa996;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    color: #000000;
+}
+h3{
+    font-family: 'Mukta', sans-serif;
+}
+header{
+    background-color: #8093F1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board{
+    background-color: #5a7aa9;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-wrap: wrap;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9{
+    width: 198px;
+    height: 198px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+.reset{
+    margin: 8px;
+    padding: 16px;
+    font-size: 32px;
+    border-radius: 16px;
+    font-family: 'Mukta', sans-serif;
+}
+/* #80f1d6 */
+/* id{
+border-color: #80f1d6;
+} */

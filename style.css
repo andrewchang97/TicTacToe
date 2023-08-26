@@ -37,6 +37,12 @@ header{
     border-color: black;
     border-width: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
 }
 .reset{
     margin: 8px;
@@ -48,4 +54,7 @@ header{
 /* #80f1d6 */
 /* id{
 border-color: #80f1d6;
+} */
+/* .cell{
+    color: aqua;
 } */

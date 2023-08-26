@@ -58,3 +58,11 @@ border-color: #80f1d6;
 /* .cell{
     color: aqua;
 } */
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
